@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{2D5AE267-BFB8-4AE2-B18F-040E60ACF432}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ColorBoxesThread PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ColorBoxesThread\MainWindow.cs">
+    <Files>
+      <File FileName="ColorBoxesThread\Program.cs" Line="18" Column="1" />
+      <File FileName="ColorBoxesThread\MainWindow.cs" Line="74" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
