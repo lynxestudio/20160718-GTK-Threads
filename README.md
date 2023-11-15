@@ -36,19 +36,18 @@
 			<p align="justify">Como nota adicional los métodos <b>Suspend</b> y <b>Resume</b> se encuentran obsoletos por lo que esta funcionalidad se implementa con la clase <b>Monitor</b>.</p>
 			<p align="justify">Para demostrar los conceptos básicos como la creación, el arranque y paro de un <b>Thread</b> he escrito el siguiente código como un ejemplo de como se escribe la creación de uno y la invocación de sus métodos <b>Start()</b> y <b>Abort()</b> respectivamente.</p>
 			<p align="justify">El siguiente programa es una sencilla animación en GTK# que dibuja rectángulos con un color diferente cada determinado tiempo utilizando las clases de dibujo de los ensamblados System.Drawing y gtk-dotnet. Este programa tiene dos botones: <i>play</i> y <i>stop</i>. El botón play inicia la animación en tanto que el botón stop detiene la animación.</p>
-			<div><b>Fig 1 Programa GTK# de una animación con un Thread.</b></div><br>
-			<div>
+<div><b>Fig 1 Programa GTK# de una animación con un Thread.</b></div>
+<div>
 <IMG src="picture_library/threading/fig4.png">
 </div><br>
-			<p align="justify">El 
+<p align="justify">
 El código fuente de este programa GTK# se divide en 3 clases:
-		   <ul>
-			<li>1-. La clase program que es la clase inicial del programa que tiene al método Main(string[] args)</li>
-			<li>2-. La clase MainWindow que contiene la interfaz gráfica del programa aquí se crea el Thread y se controla su comportamiento por medio de los botones.</li>
-			<li>3-. La clase ColorBoxesCanvas que se encarga de dibujar las figuras de la animación.</li>
-		   </ul>
-		   </p>
-			
+<ul>
+<li>1-. La clase program que es la clase inicial del programa que tiene al método Main(string[] args)</li>
+<li>2-. La clase MainWindow que contiene la interfaz gráfica del programa aquí se crea el Thread y se controla su comportamiento por medio de los botones.</li>
+<li>3-. La clase ColorBoxesCanvas que se encarga de dibujar las figuras de la animación.</li>
+</ul>
+ </p>
 		   <p align="justify">
 		   Para escribir el ejemplo creamos un proyecto en Monodevelop, creamos las clases, escribimos el código en cada clase correspondiente y compilamos. La solución debe verse como en la siguiente imagen:
 		   </p>
