@@ -38,7 +38,7 @@
 			<p align="justify">El siguiente programa es una sencilla animación en GTK# que dibuja rectángulos con un color diferente cada determinado tiempo utilizando las clases de dibujo de los ensamblados System.Drawing y gtk-dotnet. Este programa tiene dos botones: <i>play</i> y <i>stop</i>. El botón play inicia la animación en tanto que el botón stop detiene la animación.</p>
 <div><b>Fig 1 Programa GTK# de una animación con un Thread.</b></div>
 <div>
-<IMG src="picture_library/threading/fig4.png">
+<IMG src="images/fig4.png">
 </div><br>
 <p align="justify">
 El código fuente de este programa GTK# se divide en 3 clases:
@@ -51,18 +51,18 @@ El código fuente de este programa GTK# se divide en 3 clases:
 		   <p>Una vez compilada la solución la ejecutamos como se verá como en la siguiente imagen:</p>
 		   <div><b>Fig 3 El programa al iniciar de su ejecución.</b></div><br>
 		   <div>
-<IMG src="picture_library/threading/fig1.png">
+<IMG src="images/fig1.png">
 </div>
 		   <p>El programa muestra dos botones: play y stop, al oprimir el botón play se ejecuta el método <b>Run()</b></p>
 <p align="justify">
 Dentro de este método se crea un objeto <b>Thread</b> llamado worker al que se le pasa el delegado <i>canvas.Repaint</i> como argumento al constructor del objeto. Este delegado especifica la acción que realizará el subproceso durante su ciclo de vida, para este ejemplo el delegado es un método void  que no recibe argumentos. Aquí el hilo permanece en estado <b>Unstarted</b> hasta que se llama a su método <b>Start()</b>, ejecutando este método el hilo pasa al estado <b>Running</b> y devuelve el control del programa al proceso que invoco al método <b>Start()</b>.</p>
 		   <div><b>Fig 4 El programa al presionar el botón play y llamar al método Start().</b></div><br>
 		   <div>
-<IMG src="picture_library/threading/fig2.png">
+<IMG src="images/fig2.png">
 </div><br>
 		   <p align="justify">Una vez en estado <b>running</b> el <b>Thread</b> puede pasar al estado <b>Stopped</b> o <b>Aborted</b> cuando termina la ejecución del delegado <b>ThreadStart</b>, esto indica que el subproceso terminado la tarea.
 		   Un hilo en ejecución puede forzar entrar al estado <b>Stopped</b> cuando se invoca al método <b>Abort()</b>, después de invocar este método el subproceso se detiene.</p>
 		   <div><b>Fig 5 El programa al presionar el botón stop y llamar al método Abort()</b></div><br>
 		   <div>
-<IMG src="picture_library/threading/fig3.png">
+<IMG src="images/fig3.png">
 </div>
