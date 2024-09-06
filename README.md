@@ -48,13 +48,6 @@ El código fuente de este programa GTK# se divide en 3 clases:
 <li>3-. La clase ColorBoxesCanvas que se encarga de dibujar las figuras de la animación.</li>
 </ul>
  </p>
-		   <p align="justify">
-		   Para escribir el ejemplo creamos un proyecto en Monodevelop, creamos las clases, escribimos el código en cada clase correspondiente y compilamos. La solución debe verse como en la siguiente imagen:
-		   </p>
-		   <div><b>Fig 2 Los archivos de la solución en Monodevelop.</b></div><br>
-		   <div>
-<IMG src="picture_library/threading/fig5.png">
-</div><br>
 		   <p>Una vez compilada la solución la ejecutamos como se verá como en la siguiente imagen:</p>
 		   <div><b>Fig 3 El programa al iniciar de su ejecución.</b></div><br>
 		   <div>
